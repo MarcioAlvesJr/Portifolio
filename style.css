@@ -32,7 +32,7 @@ h1,h2{
 a{
   text-decoration: none;
   color: var(--light-color);
-  padding-right: 1rem;
+  padding: 1rem;
 }
 
 a:hover{
