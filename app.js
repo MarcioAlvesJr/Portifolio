@@ -1,10 +1,5 @@
 //VARIABLES
-        //Swipe
-        let 
-            touchstartX = 0,
-            touchstartY = 0,
-            touchendX = 0,
-            touchendY = 0,
+
         //Scroll
             scrollObject = undefined
             scrollDirection = {
@@ -130,23 +125,6 @@ function checkSelectedSection(){
     }
     )
     return selectedIndex
-}
-
-function handleGesture() {
-    if (touchendX < touchstartX) {
-        if(checkSelectedSection()+1< sections.length){
-            changeSection(checkSelectedSection()+1)
-        }
-        //Swiped left
-    }
-    
-    if (touchendX > touchstartX) {
-        if(checkSelectedSection()> 0){
-            changeSection(checkSelectedSection()-1)
-        }
-        //Swiped right
-    }
-    
 }
 
 function focusScroller(num){
