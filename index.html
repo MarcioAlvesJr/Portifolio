@@ -1,31 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Márcio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/logos/logo - Márcio.svg">
+    <title>Márcio</title>
 </head>
 <body>
-  <div class="page">
-    <div class="container">
-      <h1>Hello I'm <strong>Márcio</strong>
-      </h1>
-      <h2>Here's where you can find me:</h2>
-      <div id="links">
-        <ul>
-          <li><a href="http://github.com/MarcioAlvior" target="_blank">GitHub</a ></li>
-          <li><a href="https://www.linkedin.com/in/marcioadrianoalvesjunior/" target="_blank">Linkedin</a ></li>
-          <li><a href="mailto:marcioalvior@gmail.com">Email</a ></li>
-          <li><a href="https://www.instagram.com/marcioalvior/" target="_blank">Instagram</a ></li>
-          <li><a href="https://twitter.com/MarcioAlvior" target="_blank">Twitter</a ></li>
-          <li><a href="https://www.twitch.tv/marcioalvior" target="_blank" style="display: none;">Twitch</a ></li>
-          
-        </ul>
-      </div>
-  
-    </div> 
-  </div>
+    <div class="scroller">
+        <div class="fixed">
+            <div class="actual-content">
+                <div id="top-section" class="hidden">
+                    <header><a href="#"><img src="/logos/logo - Márcio.svg" alt="Logo" srcset=""></a></header>
+                    <nav id="main-nav">
+                        <ul>
+                            <li><button class="btn active home-btn">Home</button></li>
+                            <li><button class="btn projects-btn">Projects</button></li>
+                            <li><button class="btn contact-btn">Contact</button></li>
+                            <li><a href="https://docs.google.com/document/d/1iOQJmR23khXcnR2s62niMe1bMYzdox0cTnrkSQBpz08/edit?usp=sharing" target="_blank"><button class="btn" id="resume-btn">Résumé</button></a></li>
 
+                        </ul>
+                    </nav>
+                </div>
+                <div class="contents">
+                    <section class="content" id="home">
+                        <div class="wrapper">
+                            <h1>Hi! I'm <span><img src="/logos/logo - Márcio.svg" alt="" srcset=""></span>árcio</h1>
+                            <div id="menu-copy"></li>
+                            </div>
+                            <div class="footer-copy">Heres the copy</div>
+                        </div>
+
+                    </section>
+                    <section class="content down" id="projects">
+                        <nav>
+                            <ul class="projects-btns">
+                            </ul>
+                        </nav>
+                        <div class="wrapper">
+                            <h2>Project Title</h2>
+                            <p><img src="/logos/Responsive Icon.svg" alt="" srcset="">
+                                Project Description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at velit ipsam minima ab doloribus accusantium repellat blanditiis unde saepe! lo</p>
+                            <ul class="used-skills">
+                            </ul>
+                            <ul class="see-project">
+                                <li><button>MOCKUP</button></li>
+                                <li><button>CODE</button></li>
+                                <li><button>LIVE DEMO</button></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="content down" id="contact">
+                        <h2>CONTACT ME</h2>
+                        
+                            
+                            <form action="">
+                                <input type="text" placeholder="Name...">
+                                <input type="email" placeholder="Email..." name="" id="">
+                                <textarea  placeholder="Message..."name="" id="message"></textarea>
+                                <input type="submit" value="SEND" id="send">
+                            </form>
+                      
+                    </section>                      
+                </div>
+                <footer class="footer hidden">
+                    <ul id="links">
+                        <li><a target="_blank" href="mailto:marcioadrianoalvesjunior@gmail.com"><img src="/logos/Logo - Email.svg" alt="Email"></a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/marcioadrianoalvesjunior/"><img src="/logos/logo - LinkedIn.svg" alt="LinkedIn" ></a></li>
+                        <li><a target="_blank" href="http://github.com/MarcioAlvior"><img src="/logos/logo - GitHub.svg" alt="GitHub"></a></li>
+
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        <div id="scroll-0" class="scroll-page"></div>
+        <div id="scroll-1" class="scroll-page"></div>
+        <div id="scroll-2" class="scroll-page"></div>
+
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
