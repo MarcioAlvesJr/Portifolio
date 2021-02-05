@@ -55,11 +55,12 @@
                         <h2>CONTACT ME</h2>
                         
                             
-                            <form action="">
-                                <input type="text" placeholder="Name...">
-                                <input type="email" placeholder="Email..." name="" id="">
-                                <textarea  placeholder="Message..."name="" id="message"></textarea>
-                                <input type="submit" value="SEND" id="send">
+                            <form name="portifolio-contact" action="POST" data-netlify="true">
+                                <input name="name" type="text" placeholder="Name...">
+                                <input name="email" type="email" placeholder="Email..." >
+                                <textarea name="message"  placeholder="Message..."name="" id="message"></textarea>
+                                <input name="send" type="submit" value="SEND" id="send">
+                                <div data-netlify-recaptcha="true"></div>
                             </form>
                       
                     </section>                      
