@@ -366,6 +366,12 @@ footer {
     color: $color-1;
     padding: 1vh;
   }
+  .captcha {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
   #message {
     resize: none;
     flex-grow: 1;
