@@ -428,6 +428,9 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 2vh auto;
 }
 
@@ -450,13 +453,20 @@ footer {
 }
 
 #contact input,
-#contact textarea {
+#contact textarea,
+#contact div {
   height: 4vh;
   display: block;
   margin: 1vh;
   background-color: rgba(255, 255, 255, 0.897);
   color: #202020;
   padding: 1vh;
+}
+
+#contact .captcha {
+  display: block;
+  width: 100%;
+  margin: auto;
 }
 
 #contact #message {
