@@ -454,7 +454,7 @@ footer {
 
 #contact input,
 #contact textarea,
-#contact div {
+#contact .captcha {
   height: 4vh;
   display: block;
   margin: 1vh;
@@ -465,7 +465,6 @@ footer {
 
 #contact .captcha {
   display: block;
-  width: 100%;
   margin: auto;
 }
 

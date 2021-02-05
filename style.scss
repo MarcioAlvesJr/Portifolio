@@ -358,7 +358,7 @@ footer {
 
   input,
   textarea,
-  div {
+  .captcha {
     height: 4vh;
     display: block;
     margin: 1vh;
@@ -368,7 +368,6 @@ footer {
   }
   .captcha {
     display: block;
-    width: 100%;
     margin: auto;
   }
 
