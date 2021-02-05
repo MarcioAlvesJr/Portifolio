@@ -357,8 +357,7 @@ footer {
   }
 
   input,
-  textarea,
-  .captcha {
+  textarea {
     height: 4vh;
     display: block;
     margin: 1vh;
@@ -367,6 +366,7 @@ footer {
     padding: 1vh;
   }
   .captcha {
+    height: 4vh;
     display: block;
     margin: auto;
   }

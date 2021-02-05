@@ -453,8 +453,7 @@ footer {
 }
 
 #contact input,
-#contact textarea,
-#contact .captcha {
+#contact textarea {
   height: 4vh;
   display: block;
   margin: 1vh;
@@ -464,6 +463,7 @@ footer {
 }
 
 #contact .captcha {
+  height: 4vh;
   display: block;
   margin: auto;
 }
