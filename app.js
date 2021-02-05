@@ -20,6 +20,8 @@
     // Sections
             sections = document.querySelectorAll(".content");
             scrollabeSections = document.querySelectorAll(".scroll-page")
+    //  Form    
+            inputs = document.querySelectorAll('.input')
     //Event Listeners
         //Scroll
             window.addEventListener('scroll', scrollSections)
@@ -28,17 +30,23 @@
             btn_home.addEventListener('click', () => changeSection(0,true))
             btn_projects.addEventListener('click', () => changeSection(1,true))
             btn_contact.addEventListener('click', () => changeSection(2,true))
-        //Swipe
-            gestureZone.addEventListener('touchstart', function(event) {
-                touchstartX = event.changedTouches[0].screenX;
-                touchstartY = event.changedTouches[0].screenY;
-            }, false);
-            
-            gestureZone.addEventListener('touchend', function(event) {
-                touchendX = event.changedTouches[0].screenX;
-                touchendY = event.changedTouches[0].screenY;
-                handleGesture();
-            }, false); 
+        //Inputs
+           document.querySelector(".submit").addEventListener('click', (e) =>{
+               let canPost = true
+            inputs.forEach(input => {
+                if(input.value == ""){
+                    canPost = false
+                }
+            }
+
+           )
+           
+           if(!canPost){
+            e.preventDefault()
+           }
+        }
+           )
+
             
 
 //FUNCTIONS
@@ -209,6 +217,10 @@ function fromJsonToHtml(){
     )
     
 
+}
+
+function formValidation (){
+    console.log("form validating")
 }
 
 
