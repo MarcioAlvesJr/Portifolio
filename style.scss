@@ -339,6 +339,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 2vh auto;
 
   form {
@@ -356,7 +357,8 @@ footer {
   }
 
   input,
-  textarea {
+  textarea,
+  div {
     height: 4vh;
     display: block;
     margin: 1vh;
