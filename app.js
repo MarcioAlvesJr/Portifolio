@@ -42,9 +42,10 @@
            )
            
            if(!canPost){
-            e.preventDefault()
+
             alert("Please fill out all input spaces :)")
            }
+           e.preventDefault()
         }
            )
 
