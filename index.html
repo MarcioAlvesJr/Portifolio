@@ -55,7 +55,10 @@
                         <h2>CONTACT ME</h2>
                         
                             
-                            <form name="portifolio-contact" method="POST" data-netlify="true">
+                            <form name="portifolio-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                                <p class="hidden" style="display: none;">
+                                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                                </p>
                                 <input class="input" name="name" type="text" placeholder="Name...">
                                 <input class="input" name="email" type="email" placeholder="Email..." >
                                 <textarea class="input" name="message"  placeholder="Message..."name="" id="message"></textarea>
