@@ -31,7 +31,8 @@
             btn_projects.addEventListener('click', () => changeSection(1,true))
             btn_contact.addEventListener('click', () => changeSection(2,true))
         //Inputs
-           document.querySelector(".submit").addEventListener('click', (e) =>{
+           document.querySelector("form").addEventListener('submit', (e) =>{
+            e.preventDefault()
                let canPost = true
             inputs.forEach(input => {
                 if(input.value == ""){
@@ -42,7 +43,7 @@
            )
            
            if(!canPost){
-            e.preventDefault()
+
             alert("Please fill out all input spaces :)")
            }
         }
