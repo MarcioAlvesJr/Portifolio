@@ -451,17 +451,18 @@ footer {
   }
 
   #contact {
-    * {
-      text-align: center;
-      width: 50%;
-      margin: 0 50vh;
-    }
-
     form {
       width: 70vh;
       display: flex;
       justify-content: center;
       align-items: center;
+
+      .input,
+      .submit {
+        text-align: center;
+        width: 50%;
+        margin: 0 50vh;
+      }
     }
   }
 }

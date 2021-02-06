@@ -3,7 +3,7 @@
         "title": "API",
         "subheading": "Amiibo finder",
         "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA", "AMIIBO API"],
-        "description": "This app gets data from the Amiibo Api.<br> Using the search bar you can use key words to find an specific Amiibo.",
+        "description": "This app gets data from the Amiibo Api.<br> Using the search bar you can use keywords to find a specific Amiibo.",
         "links": {
             "img": "/site_imgs/responsive-print-amiibo-finder.png",
             "mockup": "https://www.figma.com/file/ByTbqjLwiNZKIk4rJzUb6U/Api-Mockup?node-id=0%3A1",
@@ -15,7 +15,7 @@
         "title": "E-Commerce",
         "subheading": "Oceancio's Store",
         "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA"],
-        "description": "This project is a front-end e-commerce interference. <br>You can see more info about a specific item, put it in the shopping cart and then check out.",
+        "description": "This project is a front-end e-commerce interface. <br>You can see more info about a specific item, put it in the shopping cart and then check out.",
         "links": {
             "img": "/site_imgs/responsive-print-oceancios-store.png",
             "mockup": "https://www.figma.com/file/ufJIICutRWp5lmwaXIJ4ad/E-commerce-Mockup?node-id=2%3A6702",
@@ -27,7 +27,7 @@
         "title": "Portifolio",
         "subheading": "Márcio's Portifolio",
         "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA", "PHOTOSHOP", "ILLUSTRATOR", "NETLIFY FORMS"],
-        "description": "Portifolio made to showcase my projects. <br>With directing links and working netlify forms.",
+        "description": "Portfolio made to showcase projects and provide useful links through a fresh and intuitive interface.",
         "links": {
             "img": "/site_imgs/responsive-print-portifolio.png",
             "mockup": "https://www.figma.com/file/iQGnYIyg6dk61NIxWjjVXo/Portfolio-Mockup",
@@ -39,7 +39,7 @@
         "title": "Game",
         "subheading": "Rock, paper, scissors",
         "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA"],
-        "description": "A rock, paper and scissors game that uses css transitions to make a clean and fun experience. Vectors were made using figma.",
+        "description": "A rock, paper and scissors game that uses css transitions to make a clean and fun experience. Vectors were made using Figma.",
         "links": {
             "img": "/site_imgs/responsive-print-rockpaperscissors.png",
             "mockup": "https://www.figma.com/file/hqq3iFPjh2VfSdZMY0zBVO/Game-Mockup",

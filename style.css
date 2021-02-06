@@ -564,11 +564,6 @@ footer {
     width: fit-content;
     margin: auto;
   }
-  #contact * {
-    text-align: center;
-    width: 50%;
-    margin: 0 50vh;
-  }
   #contact form {
     width: 70vh;
     display: -webkit-box;
@@ -580,6 +575,12 @@ footer {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  #contact form .input,
+  #contact form .submit {
+    text-align: center;
+    width: 50%;
+    margin: 0 50vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
