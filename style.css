@@ -260,6 +260,7 @@ footer {
 
 #home .wrapper #menu-copy li {
   list-style-type: none;
+  text-align: center;
 }
 
 #home .wrapper #menu-copy li button {
@@ -522,7 +523,6 @@ footer {
             transform: scale(0.9);
     position: relative;
     top: -5vh;
-    height: 70vh;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;

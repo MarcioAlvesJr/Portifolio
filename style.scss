@@ -215,6 +215,7 @@ footer {
       }
       li {
         list-style-type: none;
+        text-align: center;
         button {
           padding: 0;
         }
@@ -413,7 +414,6 @@ footer {
       transform: scale(0.9);
       position: relative;
       top: -5vh;
-      height: 70vh;
       width: fit-content;
 
       p {
