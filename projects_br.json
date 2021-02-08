@@ -1,0 +1,50 @@
+[
+    {
+        "title": "API",
+        "subheading": "Amiibo finder",
+        "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA", "AMIIBO API"],
+        "description": "Este aplicativo obtém dados do Amiibo Api.<br> Usando a barra de pesquisa, você pode usar palavras-chave para encontrar um Amiibo específico.",
+        "links": {
+            "img": "/site_imgs/responsive-print-amiibo-finder.png",
+            "mockup": "https://www.figma.com/file/ByTbqjLwiNZKIk4rJzUb6U/Api-Mockup?node-id=0%3A1",
+            "code": "https://github.com/MarcioAlvior/AmiiboApi",
+            "liveDemo": "https://amiibo-finder.netlify.app/"
+        }
+    },
+    {
+        "title": "E-Commerce",
+        "subheading": "Oceancio's Store",
+        "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA"],
+        "description": "Este projeto é uma interface(front-end) de e-commerce. <br>Você pode ver mais informações sobre um item específico, colocá-lo no carrinho de compras e finalizar a compra.",
+        "links": {
+            "img": "/site_imgs/responsive-print-oceancios-store.png",
+            "mockup": "https://www.figma.com/file/ufJIICutRWp5lmwaXIJ4ad/E-commerce-Mockup?node-id=2%3A6702",
+            "code": "https://github.com/MarcioAlvior/E-commerce",
+            "liveDemo": "https://oceancios-store.netlify.app/"
+        }
+    },
+    {
+        "title": "Portifolio",
+        "subheading": "Márcio's Portifolio",
+        "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA", "PHOTOSHOP", "ILLUSTRATOR", "NETLIFY FORMS"],
+        "description": "Portfólio feito para mostrar projetos e fornecer links úteis por meio de uma interface limpa e intuitiva.",
+        "links": {
+            "img": "/site_imgs/responsive-print-portifolio.png",
+            "mockup": "https://www.figma.com/file/iQGnYIyg6dk61NIxWjjVXo/Portfolio-Mockup",
+            "code": "https://github.com/MarcioAlvior/portifolio",
+            "liveDemo": "https://marcioalvior.com/"
+        }
+    },
+    {
+        "title": "Game",
+        "subheading": "Rock, paper, scissors",
+        "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA"],
+        "description": "Um jogo de pedra, papel e tesoura que usa transições de CSS para criar uma experiência fluida e divertida. Os vetores foram feitos usando Figma.",
+        "links": {
+            "img": "/site_imgs/responsive-print-rockpaperscissors.png",
+            "mockup": "https://www.figma.com/file/hqq3iFPjh2VfSdZMY0zBVO/Game-Mockup",
+            "code": "https://github.com/MarcioAlvior/-RockPaperScissors",
+            "liveDemo": "https://marcio-rockpaperscissors.netlify.app/"
+        }
+    }
+]

@@ -494,6 +494,9 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  #projects {
+    margin-left: 0;
+  }
   #projects nav ul {
     -webkit-transform: scale(0.6);
             transform: scale(0.6);

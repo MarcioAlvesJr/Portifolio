@@ -1,3 +1,5 @@
+changeToPt()
+fromJsonToHtml()
 //VARIABLES
 
         //Scroll
@@ -165,10 +167,37 @@ function hideOrShowAtHome(){
     document.querySelector(".actual-content .footer").classList.toggle('hidden')
     document.querySelector("#top-section").classList.toggle('hidden')
 }
-fromJsonToHtml()
+
+function changeToPt(){
+    if(navigator.languages[0] == "pt-BR"){
+        //Change home
+        const navBtns = document.querySelectorAll("#main-nav .btn")
+        navBtns[0].innerText = "Início"
+        navBtns[1].innerText = "Projetos"
+        navBtns[2].innerText = "Contato"
+        navBtns[3].innerText = "Currículo"
+        navBtns[3].parentElement.href = "https://drive.google.com/file/d/1hkUqK6vDMHbgSZ782Fw6e05VEyfScf5p/view?usp=sharing"
+
+        document.querySelector("#home .wrapper h1").innerHTML=`Olá! Sou <span><img src="/logos/logo - Márcio.svg" alt="" srcset=""></span>árcio`
+
+        //Change contact
+        document.querySelector("#contact h2").innerText = "ENTRE EM CONTATO"
+
+        const inputs = document.querySelectorAll("#contact form .input,#contact form .submit  ")
+        inputs[0] .setAttribute("placeholder", "Nome...")
+        inputs[2] .setAttribute("placeholder", "Mensagem...")
+        inputs[3].value = "ENVIAR"
+        
+    }
+}
+
 
 function fromJsonToHtml(){
-    fetch("projects.json")
+    let jsonProjects = "projects.json"
+    if(navigator.languages[0] == "pt-BR"){
+        jsonProjects = "projects_br.json"
+    }
+    fetch(jsonProjects)
     .then(res => res.json() )
     .then(data =>{
 
@@ -208,9 +237,16 @@ function fromJsonToHtml(){
             })
             //Change btn links
             const btns = document.querySelectorAll(".see-project button")
-            btns[0].innerHTML = `<a href="${data[num].links.mockup}" target="_blank">MOCKUP</a>`
-            btns[1].innerHTML = `<a href="${data[num].links.code}" target="_blank">CODE</a>`
-            btns[2].innerHTML = `<a href="${data[num].links.liveDemo}" target="_blank">LIVE DEMO</a>`
+            let btnsText = ["CODE", "LIVE DEMO"]
+
+            if(navigator.languages[0] == "pt-BR"){
+                btnsText = ["CODIGO", "DEMONSTRAÇÃO"]
+            }
+
+
+            btns[0].innerHTML = `<a href="${data[num].links.mockup}" target="_blank">DESIGN</a>`
+            btns[1].innerHTML = `<a href="${data[num].links.code}" target="_blank">${btnsText[0]}</a>`
+            btns[2].innerHTML = `<a href="${data[num].links.liveDemo}" target="_blank">${btnsText[1]}</a>`
             
 
         }
