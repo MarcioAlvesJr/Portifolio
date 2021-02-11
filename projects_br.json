@@ -24,8 +24,8 @@
         }
     },
     {
-        "title": "Portifolio",
-        "subheading": "Márcio's Portifolio",
+        "title": "Portfólio",
+        "subheading": "Márcio's Portfólio",
         "tags": ["HTML5", "CSS3", "SASS", "JAVASCRIPT", "FIGMA", "PHOTOSHOP", "ILLUSTRATOR", "NETLIFY FORMS"],
         "description": "Portfólio feito para mostrar projetos e fornecer links úteis por meio de uma interface limpa e intuitiva.",
         "links": {
