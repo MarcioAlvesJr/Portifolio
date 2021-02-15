@@ -1,10 +1,27 @@
 # Portifolio
+<h1 align="center">
+  <br>
+</h1>
+
+<p align="center">
+
+   <img alt="License MIT" src="https://img.shields.io/badge/license-MIT-blue">
+</p>
+
+# The Project
+
 Portfolio made to showcase projects and provide useful links through a fresh and intuitive interface.
+<br>
+<br>
+You can check out the hosted application by [clicking here](https://marcioalvior.com/).
+<br>
+You can check out the figma design of this application by [clicking here](https://www.figma.com/file/iQGnYIyg6dk61NIxWjjVXo/Portfolio-Mockup).
+<br>
+<img alt="Exemple GIF" src="https://github.com/MarcioAlvior/Portifolio/blob/main/demonstration.gif" />
 
-<br />
+<br>
 
-<!-- LIST:START -->
-- [<img align="left" alt="N3evin | Porfolio" width="22px"  src="https://simpleicons.org/icons/figma.svg"/>FIGMA DESIGN](https://www.figma.com/file/iQGnYIyg6dk61NIxWjjVXo/Portfolio-Mockup)
-- [<img align="left" alt="N3evin | Porfolio" width="22px"  src="https://simpleicons.org/icons/netlify.svg"/>LIVE DEMO](https://marcioalvior.com/)
-- [MORE PROJECTS](https://marcioalvior.com/)
-<!-- LIST:END -->
+## :fire: Functionalities
+
+- Go throught the site using scroll or by clicking 
+<br>
